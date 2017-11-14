@@ -1,4 +1,4 @@
-package com.fju.mid;
+package com.fju;
 
 
 import java.util.Scanner;
@@ -13,6 +13,9 @@ public class Numbers {
 			System.out.print(i+ " ");
 			if(i%5 ==4){
 				System.out.print("#"+ " ");
+			}
+			if(i>=10){
+				break;
 			}
 		}
 	}
